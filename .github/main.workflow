@@ -1,6 +1,6 @@
 workflow "Notify Issue" {
-  on = "issues"
   resolves = ["Push"]
+  on = "issue_comment"
 }
 
 action "Push" {
