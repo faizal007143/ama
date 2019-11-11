@@ -3,7 +3,7 @@ name: Notify issues
 on: [issues]
 
 jobs:
-  build:
+  push:
 
     runs-on: ubuntu-latest
 
